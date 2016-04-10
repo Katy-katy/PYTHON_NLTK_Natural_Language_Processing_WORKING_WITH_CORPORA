@@ -15,6 +15,7 @@ document and count the number of total words in the corpus and write the result 
 2. Part-of-Speech
 The program apply the default part-of-speech tagger to each tokenized sentence.Then it writes a file named
 CORPUS NAME-pos.txt that has each part-of-speech tagged sentence on a separate line and a blank newline separating documents. Where CORPUS NAME is either fables or blogs. The format of the tagging should be a word-tag pair with a / in between. 
+![Mockup for feature A](https://github.com/Katy-katy/PYTHON_NLTK_Natural_Language_Processing_WORKING_WITH_CORPORA/blob/master/Screen_Shot_fables-pos.png)
 
 3. Frequency
 The program writes the vocabulary size of corpus to stdout, writes the most frequent part-of-speech tag and its frequency
