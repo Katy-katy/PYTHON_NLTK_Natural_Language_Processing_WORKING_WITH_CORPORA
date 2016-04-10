@@ -11,14 +11,17 @@ The program takes one command line argument that specifies which corpus will be 
 1. Tokenization
 The program delimits the sentences for each document in the corpus.Then it tokenize the words in each sentence of each 
 document and count the number of total words in the corpus and write the result to stdout.
+
 2. Part-of-Speech
 The program apply the default part-of-speech tagger to each tokenized sentence.Then it writes a file named
-CORPUS NAME-pos.txt that has each part-of-speech tagged sentence on a separate line and a blank newline separating documents. Where CORPUS NAME is either fables or blogs. The format of the tagging should be a word-tag pair with a / in between. For example: The/DT boy/NN jumped/VBD ./.
+CORPUS NAME-pos.txt that has each part-of-speech tagged sentence on a separate line and a blank newline separating documents. Where CORPUS NAME is either fables or blogs. The format of the tagging should be a word-tag pair with a / in between. 
+
 3. Frequency
 The program writes the vocabulary size of corpus to stdout, writes the most frequent part-of-speech tag and its frequency
 to the stdout, finds the frequency of each unique word. Then it writes the list in decreasing order to a file named 
 CORPUS NAME-word-freq.txt. Then it finds  the frequency of each word given it’s part-of-speech tag using a conditional 
 frequency distribution and writes the results to a file named CORPUS NAME-pos-word-freq.txt.
+
 4. Similar Words
 For the most frequent word in the NN (nouns), VBD (past-tense verbs), JJ (adjectives) and RB (adjectives) part-of-speech
 tags the program finds the most similar words using Text.similar() and writes the output to stdout.
