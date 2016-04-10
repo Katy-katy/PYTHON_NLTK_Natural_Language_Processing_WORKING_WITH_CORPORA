@@ -20,8 +20,12 @@ CORPUS NAME-pos.txt that has each part-of-speech tagged sentence on a separate l
 3. Frequency
 The program writes the vocabulary size of corpus to stdout, writes the most frequent part-of-speech tag and its frequency
 to the stdout, finds the frequency of each unique word. Then it writes the list in decreasing order to a file named 
-CORPUS NAME-word-freq.txt. Then it finds  the frequency of each word given it’s part-of-speech tag using a conditional 
+CORPUS NAME-word-freq.txt. 
+![Mockup for feature A](https://github.com/Katy-katy/PYTHON_NLTK_Natural_Language_Processing_WORKING_WITH_CORPORA/blob/master/Screen_Shot_fables-pos-word-freq.png)
+
+Then it finds  the frequency of each word given it’s part-of-speech tag using a conditional 
 frequency distribution and writes the results to a file named CORPUS NAME-pos-word-freq.txt.
+![Mockup for feature A](https://github.com/Katy-katy/PYTHON_NLTK_Natural_Language_Processing_WORKING_WITH_CORPORA/blob/master/Screen_Shot_fables-word-freq.png)
 
 4. Similar Words
 For the most frequent word in the NN (nouns), VBD (past-tense verbs), JJ (adjectives) and RB (adjectives) part-of-speech
